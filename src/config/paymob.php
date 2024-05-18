@@ -13,20 +13,31 @@ return [
     */
 
     'order' => [
-        'model' => 'App\Order'
+        'model' => 'App\Models\Order'
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | PayMob username and password
+    | PayMob token and merchant_id
     |--------------------------------------------------------------------------
     |
-    | This is your PayMob username and password to make auth request.
+    | This is your PayMob token and merchant_id to make your requests.
     |
     */
 
-    'username' => '',
-    'password' => '',
+    'token' => '',
+    'merchant_id' => '',
+
+    /*
+    |--------------------------------------------------------------------------
+    | PayMob api_key
+    |--------------------------------------------------------------------------
+    |
+    | This is your PayMob api_key make auth request.
+    |
+    */
+
+    'api_key' => '',
 
     /*
     |--------------------------------------------------------------------------
